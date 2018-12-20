@@ -1,0 +1,17 @@
+C:\LINQPad_Succinctly\uspostalcodes\bin\Debug\uspostalcodes.dll.config
+C:\LINQPad_Succinctly\uspostalcodes\bin\Debug\uspostalcodes.dll
+C:\LINQPad_Succinctly\uspostalcodes\bin\Debug\uspostalcodes.pdb
+C:\LINQPad_Succinctly\uspostalcodes\bin\Debug\EntityFramework.dll
+C:\LINQPad_Succinctly\uspostalcodes\bin\Debug\EntityFramework.xml
+C:\LINQPad_Succinctly\uspostalcodes\obj\Debug\uspostalcodes.csprojResolveAssemblyReference.cache
+C:\LINQPad_Succinctly\uspostalcodes\obj\Debug\uspostalcodes.dll
+C:\LINQPad_Succinctly\uspostalcodes\obj\Debug\uspostalcodes.pdb
+D:\LINQPad Samples\uspostalcodes\bin\Debug\uspostalcodes.dll.config
+D:\LINQPad Samples\uspostalcodes\bin\Debug\uspostalcodes.dll
+D:\LINQPad Samples\uspostalcodes\bin\Debug\uspostalcodes.pdb
+D:\LINQPad Samples\uspostalcodes\bin\Debug\EntityFramework.dll
+D:\LINQPad Samples\uspostalcodes\bin\Debug\EntityFramework.xml
+D:\LINQPad Samples\uspostalcodes\obj\Debug\uspostalcodes.csproj.CoreCompileInputs.cache
+D:\LINQPad Samples\uspostalcodes\obj\Debug\uspostalcodes.csproj.CopyComplete
+D:\LINQPad Samples\uspostalcodes\obj\Debug\uspostalcodes.dll
+D:\LINQPad Samples\uspostalcodes\obj\Debug\uspostalcodes.pdb

@@ -1,0 +1,13 @@
+D:\LINQPad Samples\MyDataContextDriver\bin\Debug\header.xml
+D:\LINQPad Samples\MyDataContextDriver\bin\Debug\MyDataContextDriver.dll
+D:\LINQPad Samples\MyDataContextDriver\bin\Debug\MyDataContextDriver.pdb
+D:\LINQPad Samples\MyDataContextDriver\bin\Debug\LINQPad.exe
+D:\LINQPad Samples\MyDataContextDriver\bin\Debug\LINQPad.exe.config
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver_MarkupCompile.cache
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver.g.resources
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver.csproj.CoreCompileInputs.cache
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver.csproj.CopyComplete
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver.dll
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\MyDataContextDriver.pdb
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\mystaticdriver\ConnectionDialog.baml
+D:\LINQPad Samples\MyDataContextDriver\obj\Debug\mystaticdriver\ConnectionDialog.g.cs
