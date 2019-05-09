@@ -18,7 +18,7 @@ namespace MyDataContextDriver.mystaticdriver
 
         public override List<ExplorerItem> GetSchema(IConnectionInfo cxInfo, Type customType)
         {
-            //First, we iterate throught all top level properties of custumType
+            // First, we iterate through all top-level properties of customType
             var topLevelProps =
             (
                 from prop in customType.GetProperties()
@@ -59,7 +59,7 @@ namespace MyDataContextDriver.mystaticdriver
         private ExplorerItem GetChildItem (ILookup<Type, ExplorerItem> elementTypeLookup, PropertyInfo childProp)
         {
             //if the property's type is in the list of entities, then we're going to assume that it's a Many:1 or
-            //1:1 referefence. It's not reliable to identify 1:1s relationships purely from reflection.
+            //1:1 referefence. It's not reliable to identify 1:1 relationships purely from reflection.
             if (elementTypeLookup.Contains (childProp.PropertyType))
                 return new ExplorerItem (childProp.Name, ExplorerItemKind.ReferenceLink, ExplorerIcon.ManyToOne)
                 {
@@ -83,7 +83,7 @@ namespace MyDataContextDriver.mystaticdriver
                     ToolTipText = FormatTypeName (elementType, true)
                 };
 
-            //If it isn't, this is an ordinary property.
+            // If it isn't, this is an ordinary property.
             return new ExplorerItem (childProp.Name + " (" + FormatTypeName (childProp.PropertyType, false) + ")",
                 ExplorerItemKind.Property, ExplorerIcon.Column);
         }
