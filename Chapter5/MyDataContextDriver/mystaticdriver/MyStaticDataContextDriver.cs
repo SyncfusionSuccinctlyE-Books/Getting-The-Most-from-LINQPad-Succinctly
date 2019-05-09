@@ -42,7 +42,7 @@ namespace MyDataContextDriver.mystaticdriver
             ).ToList ();
 
             // Create a lookup element, associating each element type to the properties of that type.
-            // This will allow to build hyperlinks which let the user click between relationships.
+            // This will allow us to build hyperlinks that let the user click between relationships.
             var elementTypeLookup = topLevelProps.ToLookup (tp => (Type)tp.Tag);
 
             // Populate the properties of each entity
@@ -58,16 +58,16 @@ namespace MyDataContextDriver.mystaticdriver
 
         private ExplorerItem GetChildItem (ILookup<Type, ExplorerItem> elementTypeLookup, PropertyInfo childProp)
         {
-            //if the property's type is in the list of entities, then we're going to assume that it's a Many:1 or
-            //1:1 referefence. It's not reliable to identify 1:1 relationships purely from reflection.
+            // If the property's type is in the list of entities, then we're going to assume that it's a Many:1 or
+            // 1:1 referefence. It's not reliable to identify 1:1 relationships purely from reflection.
             if (elementTypeLookup.Contains (childProp.PropertyType))
                 return new ExplorerItem (childProp.Name, ExplorerItemKind.ReferenceLink, ExplorerIcon.ManyToOne)
                 {
                     HyperlinkTarget = elementTypeLookup [childProp.PropertyType].First (),
-                    ToolTipText = FormatTypeName (childProp.PropertyType, true) // FormatTypeName is a LINQPad's helper method that returns a nicely formatted type name.
+                    ToolTipText = FormatTypeName (childProp.PropertyType, true) // FormatTypeName is LINQPad's helper method that returns a nicely formatted type name.
                 };
 
-            //We're going to check if the property's type is a collection of entities
+            // We're going to check if the property's type is a collection of entities
             var ienumerableOfT = childProp.PropertyType.GetInterface ("System.Collections.Generic.IEnumerable`1");
 
             // If it isn't we return the Name and Type of the property as an ExplorerItem
